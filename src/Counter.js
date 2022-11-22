@@ -9,11 +9,16 @@ function Counter() {
         setCounter(counter => counter+1)
     }
 
+    function reset() {
+        setCounter(0)
+    }
 
   return (
     <div>
         <p className="counter-content">Counter is {counter}</p>
         <button onClick={increment}>Click here to increment one</button>
+        <button onClick={reset}>Click here to reset</button>
+        
     </div>
   );
 }
