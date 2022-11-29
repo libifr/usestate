@@ -28,3 +28,14 @@ button:hover {
 .counter-content {
   font-size: x-large;
 }
+
+input {
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+
+label {
+  font-size: x-large;
+  
+}
